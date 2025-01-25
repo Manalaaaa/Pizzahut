@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./nevtreh.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img class="logo1" src="./Screenshot (18).png" alt="" />
+      </div>
+    </div>
+
+    <div class="ug">
+      <h2 style="margin-left: 430px">ХАЯГ ОРУУЛАХ</h2>
+      <h2 style="margin-left: 60px">НЭВТРЭХ</h2>
+    </div>
+    <div class="hoyula">
+      <div class="hayg">
+        <input type="text" class="duureg" placeholder="Дүүрэг" />
+        <input type="text" class="duureg" placeholder="Хороо" />
+        <input type="text" class="duureg" placeholder="Хаяг" />
+        <button class="btn">Хаяг оруулсан</button>
+      </div>
+      <div class="daraagiih">
+        <input type="text" class="email" placeholder="Имейл" />
+        <input type="password" class="password" placeholder="Нууц үг" />
+        <button class="bttn">Нэвтрэх</button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="garchig">
+        <h4>БИДНИЙ ТУХАЙ</h4>
+        <h4>ТУСЛАМЖ ҮЙЛЧИЛГЭЭ</h4>
+        <h4>ХЭРЭГЛЭГЧ</h4>
+        <h4>БИДЭНТЭЙ ХОЛБОГДОХ</h4>
+      </div>
+      <div class="text">
+        <p>
+          Бидний тухай<br />
+          Нийгмийн хариуцлага
+        </p>
+        <p style="margin-left: 55px">
+          Илчлэгийн мэдээлэл<br />
+          Салбар хайх<br />
+          Холбоо барих
+        </p>
+        <p style="margin-left: 125px">Чатлах</p>
+        <p style="margin-left: 120px">
+          Facebook хуудас<br />
+          YouTube суваг<br />
+          Instagram профайл
+        </p>
+      </div>
+    </div>
+
+    <div>
+ 
+    </div>  
+
+
+    <script>
+    
+
+      const users = { name: "Manal123@gmail.com", password: "1234" };
+
+      const input = document.querySelector(".email");
+       const input2 = document.querySelector(".password");
+
+      const bttn = document.querySelector(".bttn");
+
+      bttn.addEventListener("click", () => {
+        console.log("object");
+        if (users.name == input.value && users.password == input2.value) {
+          window.location.href = "./index.html";
+        } else {
+          alert("Нэвтрэх нэр эсвэл нууц үг буруу байна.");
+        }
+      });
+
+    </script>
+  </body>
+</html>

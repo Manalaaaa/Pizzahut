@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./background.jpg) center center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  height: 90px;
+}
+.logo1 {
+  width: 170px;
+  height: 55px;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+.kk {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.zz {
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  margin-top: 60px;
+  border-radius: 10px;  
+  justify-content: center;
+  box-shadow: 3px 3px rgb(133, 133, 133);
+}
+.ii{
+  background-color: white;
+  height: 540px;
+  width: 400px;
+  margin-top: 60px;
+  border-radius: 10px;  
+  justify-content: center;
+  box-shadow: 3px 3px rgb(133, 133, 133);
+}
+.ss {
+  height: 30px;
+  width: 250px;
+  margin: 20px 80px;
+  border-radius: 5px;
+  color: rgb(39, 38, 38);
+  padding-left: 10px;
+ 
+}
+
+.ww {
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  margin-top: 60px;
+  border-radius: 10px;  
+  justify-content: center;
+  box-shadow: 3px 3px rgb(133, 133, 133);
+}
+
+
+.footer {
+  width: 100vw;
+  height: 220px;
+  background-color: rgb(103, 103, 103);
+  margin-top: 90px;
+}
+.garchig{
+    display: flex;
+    gap: 70px;
+    padding: 30px 50px;
+    justify-content: center;
+    color: rgb(232, 232, 233);
+}
+.text{
+  display: flex;
+  margin-left: 355px;
+  color: rgb(232, 232, 233);
+}
+.bat{
+  background-color: #e22525;
+  padding: 7px 60px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  margin: 25px 85px;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+
+
